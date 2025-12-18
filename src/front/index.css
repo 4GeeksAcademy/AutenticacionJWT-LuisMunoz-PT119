@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1630357631/es/foto/fondo-de-cielo-azul-con-nube-blanca-en-un-d%C3%ADa-soleado.jpg?s=612x612&w=0&k=20&c=O8ocoZuylHVCnbd4NjNqAxzIbeAXmriVdKV961rSY3g=");
+    background-size: cover;      /* Cubre toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* La imagen no se mueve al hacer scroll */
+    min-height: 100vh;
+    margin: 0;
+}
+.container, .container-fluid {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(5px);                
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
